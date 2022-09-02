@@ -10,9 +10,9 @@ namespace JogoDosCopos
             Console.WriteLine("Entre com a quantidade de movimentos :");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine("Entre com a posição da moeda (Copo A, B ou C: ");
-            String copo = Console.ReadLine();
+            String copos = Console.ReadLine();
 
-            Jogadas jogada = new Jogadas(n,copo);
+            Jogadas jogada = new Jogadas(n,copos);
             jogada.Jogada();
             
         }

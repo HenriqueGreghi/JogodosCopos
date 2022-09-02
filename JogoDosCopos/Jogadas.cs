@@ -7,84 +7,108 @@ namespace JogoDosCopos
     class Jogadas
     {
         public int N { get; set; }
-        public string Copo { get; set; }
-        public string Posicao1 { get; set; }
-        public string Posicao2 { get; set; }
-        public string Posicao3 { get; set; }
+        public string Copos{ get; set; }
 
-        public Jogadas(int n, string copo)
+        public Jogadas(int n, string copos)
         {
             N = n;
-            Copo = copo;
+            Copos = copos;
         }
-        
-
 
         public void Jogada()
         {
-            if (N <= 6)
+            int numero, Copo;
+            int cont = 0;
+
+            if (Copos[0] == 'A')
             {
-
-                Regra();
-
-
+                Copo = 1;
             }
             else
             {
-                N = N / 6;
-                Regra();
+                if (Copos[0] == 'B')
+                {
+                    Copo = 2;
+                }
+                else
+                {
+                    Copo = 3;
+                }
             }
-        }
-        public void Regra()
-        {
-            switch (N)
+            while (cont < N)
             {
-                case 1:
-                    Posicao1 = "B";
-                    Posicao2 = "A";
-                    Posicao3 = "C";
-                    break;
-                case 2:
-                    Posicao1 = "B";
-                    Posicao2 = "C";
-                    Posicao3 = "A";
-                    break;
-                case 3:
-                    Posicao1 = "A";
-                    Posicao2 = "C";
-                    Posicao3 = "B";
-                    break;
-                case 4:
-                    Posicao1 = "C";
-                    Posicao2 = "A";
-                    Posicao3 = "B";
-                    break;
-                case 5:
-                    Posicao1 = "C";
-                    Posicao2 = "B";
-                    Posicao3 = "A";
-                    break;
-                case 6:
-                    Posicao1 = "A";
-                    Posicao2 = "B";
-                    Posicao3 = "C";
-                    break;
-
+                numero = int.Parse(Console.ReadLine());
+                if (numero == 1)
+                {
+                    if (Copo != 3)
+                    {
+                        if (Copo == 1)
+                        {
+                            Copo = 2;
+                        }
+                        else
+                        {
+                            Copo = 1;
+                        }
+                    }
+                }
+                else
+                {
+                    if (numero == 2)
+                    {
+                        if (Copo != 1)
+                        {
+                            if (Copo == 2)
+                            {
+                                Copo = 3;
+                            }
+                            else
+                            {
+                                Copo = 2;
+                            }
+                        }
+                    }
+                    else
+                    {
+                        if (Copo != 2)
+                        {
+                            if (Copo == 1)
+                            {
+                                Copo = 3;
+                            }
+                            else
+                            {
+                                Copo = 1;
+                            }
+                        }
+                    }
+                }
+                cont++;
             }
-
-        
-            switch (Copo)
+            if (Copo == 1)
             {
-                case "A":
-                    Console.WriteLine( Posicao1 );
-                    break;
-                case "B":
-                    Console.WriteLine(Posicao2);
-                    break;
-                case "C":
-                    Console.WriteLine(Posicao3);
-                    break;
+                Console.WriteLine();
+                Console.Write("A");
+               
             }
+            else
+            {
+                if (Copo == 2)
+                {
+                    Console.WriteLine();
+                    Console.Write("B");
+                    
+                }
+                else
+                {
+                    Console.WriteLine();
+                    Console.Write("C");
+                    
+                }
+            }
+
         }
+
     }
 }
+
