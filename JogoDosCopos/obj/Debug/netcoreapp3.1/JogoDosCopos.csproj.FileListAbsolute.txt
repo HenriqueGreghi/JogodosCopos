@@ -1,0 +1,14 @@
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\bin\Debug\netcoreapp3.1\JogoDosCopos.exe
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\bin\Debug\netcoreapp3.1\JogoDosCopos.deps.json
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\bin\Debug\netcoreapp3.1\JogoDosCopos.runtimeconfig.json
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\bin\Debug\netcoreapp3.1\JogoDosCopos.runtimeconfig.dev.json
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\bin\Debug\netcoreapp3.1\JogoDosCopos.dll
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\bin\Debug\netcoreapp3.1\JogoDosCopos.pdb
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\obj\Debug\netcoreapp3.1\JogoDosCopos.csproj.AssemblyReference.cache
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\obj\Debug\netcoreapp3.1\JogoDosCopos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\obj\Debug\netcoreapp3.1\JogoDosCopos.AssemblyInfoInputs.cache
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\obj\Debug\netcoreapp3.1\JogoDosCopos.AssemblyInfo.cs
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\obj\Debug\netcoreapp3.1\JogoDosCopos.csproj.CoreCompileInputs.cache
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\obj\Debug\netcoreapp3.1\JogoDosCopos.dll
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\obj\Debug\netcoreapp3.1\JogoDosCopos.pdb
+C:\Users\017557631\source\repos\JogoDosCopos\JogoDosCopos\obj\Debug\netcoreapp3.1\JogoDosCopos.genruntimeconfig.cache
